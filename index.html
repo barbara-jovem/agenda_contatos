@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Médias</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="./emojis/phone.png" alt="Telefone">
+            <h1>Agenda de Contatos</h1>
+        </header>
+
+        <div class="form-options">
+        <form id="form-activities">
+            <input type="text" id="name-contact" required placeholder="Nome do Contato" />
+            <input type="number" id="number-phone" required placeholder="Número do Contato"/>
+            
+            <div class="classification">
+            <input type="radio" name="type-contact" id="friend-contact" /><label for="horario-manha">Amigo</label>
+            <input type="radio" name="type-contact" id="family-contact" /><label for="horario-tarde">Família</label>
+            <input type="radio" name="type-contact" id="work-contact" /><label for="horario-noite">Trabalho</label>
+            <input type="radio" name="type-contact" id="favorite-contact" /><label for="favorite-contact">Favorito</label>
+            </div>
+            
+            <button type="submit">Cadastrar </button>
+        </form>
+        </div>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Número </th>
+                    <th>Categoria</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #bed5f0;
+  padding-top: 100px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  color: rgb(21, 36, 87);
+}
+
+header img {
+  height: 36px;
+  margin-right: 16px;
+}
+
+header h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 56px;
+}
+
+form input {
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  padding: 8px;
+  width: 180px;
+}
+
+.form-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#form-activities {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+#form-activities input {
+  border-radius: 2px;
+}
+
+#form-activities input[type="number"] {
+  margin-right: 10px;
+}
+
+.classification {
+  display: flex;
+  max-width: 300px;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+.classification input[type="radio"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  outline: none;
+  margin-right: 8px;
+}
+
+.classification input[type="radio"]:checked {
+  background-color: rgb(21, 36, 87);
+}
+
+.classification label {
+  margin-right: 8px;
+}
+
+form button {
+  background-color: rgb(21, 36, 87);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  width: 120px;
+  border-radius: 2px;
+}
+
+table {
+  width: 100%;
+}
+
+table th {
+  color: rgb(21, 36, 87);
+  border-bottom: 2px solid rgb(21, 36, 87);
+  padding: 16px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+table td {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(21, 36, 87, 0.2);
+}
+
+table td img {
+  width: 30px;
+}
